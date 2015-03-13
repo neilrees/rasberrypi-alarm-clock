@@ -1,0 +1,16 @@
+{
+  "name": "clock",
+  "main": "clock.html",
+  "window": {
+    "kiosk": true,
+    "frame": false,
+    "toolbar": false
+  },
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "moment": "^2.9.0",
+    "node-schedule": "^0.2.3",
+    "q": "^1.2.0",
+    "sudo": "^1.0.3"
+  }
+}
