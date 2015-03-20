@@ -65,7 +65,7 @@ var weekdays = clock.find('.weekdays span');
 	// mm - minutes, ss-seconds (all with leading zeroes),
 	// d is for day of week and A is for AM/PM
 
-	var now = moment().format("hhmmssdA");
+	var now = moment().format("HHmmssdA");
 
 	if (now[0] != '0') {
 		digits.h1.attr('class', digit_to_name[now[0]]);
