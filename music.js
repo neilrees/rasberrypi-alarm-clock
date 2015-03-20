@@ -8,7 +8,7 @@ function Music() {
 
 	var service = this;
 
-	var ympd = sudo(['/home/pi/ympd/ympd', '--webport', '80']);
+	var ympd = sudo(['./ympd', '--webport', '80']);
 
 	ympd.stdout.on('data', function(data) { console.log(data.toString()); });
 	ympd.stderr.on('data', function(data) { console.log(data.toString()); });
